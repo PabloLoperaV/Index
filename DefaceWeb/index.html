@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hacked By LinkSquad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="linksquad.png" type="image/x-icon">
+</head>
+<body>
+
+<audio autoplay loop><source src="song.mp3"></audio>
+
+
+<link rel="stylesheet" href="index.css" type="text/css">
+<script src="Red.min.js"></script>
+
+<div class="overlay"></div>
+
+<div id="header">
+    <div id="linksquad-logo">
+        <img draggable="false" src="linksquad.png">
+    </div>
+    <div id="header-text">
+        <a href="https://linksquad.wtf/">LinkSquad</a>
+    </div>
+</div>
+
+<div id="phrase-container">
+    <div class="phrases"></div>
+</div>
+
+
+<div id="footer">
+    Join our Discord: 
+    <span class="admin"><a
+            href="https://discord.gg/spain">discord.gg/spain</a>
+    </span>
+</div>
+
+<script src="index.js"></script>
+
+<script>
+    Red.ready(function () {
+        var music = "on";
+        Root.initialize(music);
+    });
+</script>
+
+</body>
+</html>
